@@ -1,4 +1,20 @@
 ---
 label: DarsPost
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Yer dang title
+- name: yer_rap
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Yer Rap
+  description: 'stuff you write '
